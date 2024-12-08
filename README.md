@@ -343,3 +343,6 @@ const numberList = createList<number>(); // Explicitly number[]
 - **Clarity**: Provides better documentation and understanding of intent through type annotations.
 
 Generics are a powerful feature in TypeScript that allow you to build scalable, reusable, and type-safe code!
+
+
+---

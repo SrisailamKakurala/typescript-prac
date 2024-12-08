@@ -1,5 +1,13 @@
 # typescript-prac
 
+```bash
+  >>> npm i -g typescript
+  >>> tsc ./index.ts will generate a index.js file
+  >>> tsc ./index.ts -w
+  >>> tsc -init
+  >>> now to control the placing of compiled js files we can configure root dir and out dir
+```
+
 ## **`Constructor`**
 
 The code is incorrect because of redundancy and unnecessary reassignments in the constructor. In TypeScript, when you declare a parameter with `public`, `private`, or `protected` in the constructor, it automatically initializes the property with the provided value. There's no need to explicitly reassign them inside the constructor.
